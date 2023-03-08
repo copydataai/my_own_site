@@ -1,0 +1,30 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Body from '../components/Body.astro';
+import {SITE_TITLE, SITE_DESCRIPTION} from '../config';
+
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <Header/>
+  <Body className="flex flex-col ">
+	<main class="pt-[56px] mx-auto">
+  <div class="">
+    <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
+          <img src="public/pic-profile.jpeg" alt="image-profile" class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">
+      <div class="flex flex-col">
+        <h4 class="text-lg font-semibold text-center md:text-left">Jose Sanchez</h4>
+        <p class="dark:text-gray-400">I'm a Full stack Developer <strong class="font-semibold">"Software Developer"</strong>, </p>
+        <p>Proficiency in Go, JS/TS, Terraform, Docker, Bash and topic framework/librarie JS(Vue, React, Preact)</p>
+      </div>
+    </div>
+  </div>
+	</main>
+  <Footer/>
+  </Body>
+</html>

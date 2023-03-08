@@ -1,0 +1,27 @@
+---
+import { HOMEPAGE_URL } from '../config'
+import HeaderLink from './HeaderLink.astro';
+
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5/index.js'
+
+const today = new Date()
+---
+
+<footer class="text-zinc-500 p-4 text-center">
+
+  <div>
+    <div>
+    <HeaderLink
+      href="https://www.linkedin.com/in/copydataai"
+      target="_blank"><IoLogoLinkedin />LinkedIn</HeaderLink
+    >
+    <HeaderLink
+      href="https://github.com/copydataai"
+      target="_blank"><IoLogoGithub />Github</HeaderLink
+    ></div>
+    <div>
+    &copy; {today.getFullYear()}
+  <a href={HOMEPAGE_URL}>Jose Sanchez</a>. All rights reserved.
+</div>
+</div>
+</footer>
