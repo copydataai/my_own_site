@@ -18,3 +18,13 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`      | Preview your build locally, before deploying     |
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
+
+### License
+
+MIT License.
+
+You can create your own homepage for free without notifying me by forking this project under the following conditions:
+
+    Add a link to my homepage
+
+Check out LICENSE for more detail.
