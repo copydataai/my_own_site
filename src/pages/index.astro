@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import profileLinkedIn from '../assets/profile-linkedin.jpeg'
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -16,7 +18,7 @@ import {SITE_TITLE, SITE_DESCRIPTION} from '../config';
 	<main class="pt-[56px] mx-auto">
   <div class="">
     <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-        <img src="https://storage.googleapis.com/public-copydataai/profile-linkedin.jpeg" alt="image-profile" class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">
+        <Image src={profileLinkedIn} alt="copydataai" class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700"/>
       <div class="flex flex-col">
         <h4 class="text-lg font-semibold text-center md:text-left">Jose Sanchez</h4>
         <p class="dark:text-gray-400">I'm a Full stack Developer <strong class="font-semibold">"Software Developer"</strong>, </p>
