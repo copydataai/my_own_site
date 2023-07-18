@@ -1,6 +1,12 @@
 # My own site
 
-> This is a project to build my own site with Astro, Tailwind and React.
+**This project hasn't been in development**
+
+> You can check this options are such popular in astro community, also, you can find more than this options
+
+- [astro-paper](https://github.com/satnaing/astro-paper) I love the design and my main template to [copydataai](https://copydataai.com).
+- [blogster](https://github.com/flexdinesh/blogster) I love the options and the designs.
+- [astrofy](https://github.com/manuelernestog/astrofy) Simplicity first.
 
 ## 🚀 Project Structure
 
